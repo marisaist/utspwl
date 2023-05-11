@@ -1,0 +1,97 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th, table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+  }
+  
+  a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  form {
+    margin-top: 10px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  form input[type="text"],
+  form input[type="number"],
+  form input[type="date"] {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  form button {
+    padding: 8px 12px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #45a049;
+  }
+  
+  span {
+    margin-right: 10px;
+  }
+  
+  .delete-form {
+    display: inline-block;
+  }
+  
+  .delete-form button {
+    background-color: #f44336;
+  }
+  
+  .delete-form button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .edit-link {
+    display: block;
+    margin-bottom: 10px;
+    text-align: right;
+  }
+  
+  .edit-link a {
+    background-color: #2196f3;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  .edit-link a:hover {
+    background-color: #0d8bf1;
+  }
+  
